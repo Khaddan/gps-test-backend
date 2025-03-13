@@ -36,7 +36,7 @@ public class GpsPoint {
     @Column(name = "heading")
     private int heading;
 
-    @Column(name = "temp") // Ajoutez les colonnes manquantes
+    @Column(name = "temp")
     private int temp;
 
     @Column(name = "tram_id")
@@ -49,5 +49,5 @@ public class GpsPoint {
     public void setIdDevice(int idDevice) {
         this.idDevice = idDevice;
     }
-    // Autres champs si nécessaire...
+
 }
