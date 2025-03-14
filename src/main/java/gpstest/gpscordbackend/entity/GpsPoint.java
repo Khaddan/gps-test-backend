@@ -50,4 +50,35 @@ public class GpsPoint {
         this.idDevice = idDevice;
     }
 
+    public LocalDateTime getDate() {
+        return this.date;
+    }
+
+    public double getLatitude() {
+        return this.latitude;
+    }
+
+    public double getLongitude() {
+        return this.longitude;
+    }
+
+    public int getSpeed() {
+        return this.speed;
+    }
+
+    public int getFuel() {
+        return this.fuel;
+    }
+
+    public int getHeading() {
+        return this.heading;
+    }
+
+    public int getTemp() {
+        return this.temp;
+    }
+
+    public int getTramId() {
+        return this.tramId;
+    }
 }
